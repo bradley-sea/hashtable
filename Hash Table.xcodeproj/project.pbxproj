@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2B156B018BD60C800CDC32B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B156AF18BD60C800CDC32B /* Foundation.framework */; };
+		A2B156B218BD60C800CDC32B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B156B118BD60C800CDC32B /* CoreGraphics.framework */; };
+		A2B156B418BD60C800CDC32B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B156B318BD60C800CDC32B /* UIKit.framework */; };
+		A2B156BA18BD60C800CDC32B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2B156B818BD60C800CDC32B /* InfoPlist.strings */; };
+		A2B156BC18BD60C800CDC32B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B156BB18BD60C800CDC32B /* main.m */; };
+		A2B156C018BD60C800CDC32B /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B156BF18BD60C800CDC32B /* CFAppDelegate.m */; };
+		A2B156C318BD60C800CDC32B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B156C118BD60C800CDC32B /* Main.storyboard */; };
+		A2B156C618BD60C800CDC32B /* CFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B156C518BD60C800CDC32B /* CFViewController.m */; };
+		A2B156C818BD60C800CDC32B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B156C718BD60C800CDC32B /* Images.xcassets */; };
+		A2B156CF18BD60C800CDC32B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B156CE18BD60C800CDC32B /* XCTest.framework */; };
+		A2B156D018BD60C800CDC32B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B156AF18BD60C800CDC32B /* Foundation.framework */; };
+		A2B156D118BD60C800CDC32B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B156B318BD60C800CDC32B /* UIKit.framework */; };
+		A2B156D918BD60C800CDC32B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2B156D718BD60C800CDC32B /* InfoPlist.strings */; };
+		A2B156DB18BD60C800CDC32B /* Hash_TableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B156DA18BD60C800CDC32B /* Hash_TableTests.m */; };
+		A2B156E618BD929000CDC32B /* HashTable.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B156E518BD929000CDC32B /* HashTable.m */; };
+		A2B156E918BD97B500CDC32B /* HashBucket.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B156E818BD97B500CDC32B /* HashBucket.m */; };
+		A2B156EF18BDA83300CDC32B /* DynamicHashTable.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B156EE18BDA83300CDC32B /* DynamicHashTable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2B156D218BD60C800CDC32B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2B156A418BD60C800CDC32B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B156AB18BD60C800CDC32B;
+			remoteInfo = "Hash Table";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2B156AC18BD60C800CDC32B /* Hash Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hash Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B156AF18BD60C800CDC32B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2B156B118BD60C800CDC32B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2B156B318BD60C800CDC32B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2B156B718BD60C800CDC32B /* Hash Table-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hash Table-Info.plist"; sourceTree = "<group>"; };
+		A2B156B918BD60C800CDC32B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2B156BB18BD60C800CDC32B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2B156BD18BD60C800CDC32B /* Hash Table-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hash Table-Prefix.pch"; sourceTree = "<group>"; };
+		A2B156BE18BD60C800CDC32B /* CFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
+		A2B156BF18BD60C800CDC32B /* CFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
+		A2B156C218BD60C800CDC32B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2B156C418BD60C800CDC32B /* CFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFViewController.h; sourceTree = "<group>"; };
+		A2B156C518BD60C800CDC32B /* CFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFViewController.m; sourceTree = "<group>"; };
+		A2B156C718BD60C800CDC32B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2B156CD18BD60C800CDC32B /* Hash TableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hash TableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B156CE18BD60C800CDC32B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A2B156D618BD60C800CDC32B /* Hash TableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hash TableTests-Info.plist"; sourceTree = "<group>"; };
+		A2B156D818BD60C800CDC32B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2B156DA18BD60C800CDC32B /* Hash_TableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hash_TableTests.m; sourceTree = "<group>"; };
+		A2B156E418BD929000CDC32B /* HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
+		A2B156E518BD929000CDC32B /* HashTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashTable.m; sourceTree = "<group>"; };
+		A2B156E718BD97B500CDC32B /* HashBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashBucket.h; sourceTree = "<group>"; };
+		A2B156E818BD97B500CDC32B /* HashBucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashBucket.m; sourceTree = "<group>"; };
+		A2B156ED18BDA83300CDC32B /* DynamicHashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DynamicHashTable.h; path = ../DynamicHashTable.h; sourceTree = "<group>"; };
+		A2B156EE18BDA83300CDC32B /* DynamicHashTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DynamicHashTable.m; path = ../DynamicHashTable.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2B156A918BD60C800CDC32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B156B218BD60C800CDC32B /* CoreGraphics.framework in Frameworks */,
+				A2B156B418BD60C800CDC32B /* UIKit.framework in Frameworks */,
+				A2B156B018BD60C800CDC32B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B156CA18BD60C800CDC32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B156CF18BD60C800CDC32B /* XCTest.framework in Frameworks */,
+				A2B156D118BD60C800CDC32B /* UIKit.framework in Frameworks */,
+				A2B156D018BD60C800CDC32B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2B156A318BD60C800CDC32B = {
+			isa = PBXGroup;
+			children = (
+				A2B156B518BD60C800CDC32B /* Hash Table */,
+				A2B156D418BD60C800CDC32B /* Hash TableTests */,
+				A2B156AE18BD60C800CDC32B /* Frameworks */,
+				A2B156AD18BD60C800CDC32B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2B156AD18BD60C800CDC32B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2B156AC18BD60C800CDC32B /* Hash Table.app */,
+				A2B156CD18BD60C800CDC32B /* Hash TableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2B156AE18BD60C800CDC32B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2B156AF18BD60C800CDC32B /* Foundation.framework */,
+				A2B156B118BD60C800CDC32B /* CoreGraphics.framework */,
+				A2B156B318BD60C800CDC32B /* UIKit.framework */,
+				A2B156CE18BD60C800CDC32B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2B156B518BD60C800CDC32B /* Hash Table */ = {
+			isa = PBXGroup;
+			children = (
+				A2B156BE18BD60C800CDC32B /* CFAppDelegate.h */,
+				A2B156BF18BD60C800CDC32B /* CFAppDelegate.m */,
+				A2B156C118BD60C800CDC32B /* Main.storyboard */,
+				A2B156ED18BDA83300CDC32B /* DynamicHashTable.h */,
+				A2B156EE18BDA83300CDC32B /* DynamicHashTable.m */,
+				A2B156C418BD60C800CDC32B /* CFViewController.h */,
+				A2B156C518BD60C800CDC32B /* CFViewController.m */,
+				A2B156E718BD97B500CDC32B /* HashBucket.h */,
+				A2B156E818BD97B500CDC32B /* HashBucket.m */,
+				A2B156E418BD929000CDC32B /* HashTable.h */,
+				A2B156E518BD929000CDC32B /* HashTable.m */,
+				A2B156C718BD60C800CDC32B /* Images.xcassets */,
+				A2B156B618BD60C800CDC32B /* Supporting Files */,
+			);
+			path = "Hash Table";
+			sourceTree = "<group>";
+		};
+		A2B156B618BD60C800CDC32B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2B156B718BD60C800CDC32B /* Hash Table-Info.plist */,
+				A2B156B818BD60C800CDC32B /* InfoPlist.strings */,
+				A2B156BB18BD60C800CDC32B /* main.m */,
+				A2B156BD18BD60C800CDC32B /* Hash Table-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2B156D418BD60C800CDC32B /* Hash TableTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2B156DA18BD60C800CDC32B /* Hash_TableTests.m */,
+				A2B156D518BD60C800CDC32B /* Supporting Files */,
+			);
+			path = "Hash TableTests";
+			sourceTree = "<group>";
+		};
+		A2B156D518BD60C800CDC32B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2B156D618BD60C800CDC32B /* Hash TableTests-Info.plist */,
+				A2B156D718BD60C800CDC32B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2B156AB18BD60C800CDC32B /* Hash Table */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B156DE18BD60C800CDC32B /* Build configuration list for PBXNativeTarget "Hash Table" */;
+			buildPhases = (
+				A2B156A818BD60C800CDC32B /* Sources */,
+				A2B156A918BD60C800CDC32B /* Frameworks */,
+				A2B156AA18BD60C800CDC32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hash Table";
+			productName = "Hash Table";
+			productReference = A2B156AC18BD60C800CDC32B /* Hash Table.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2B156CC18BD60C800CDC32B /* Hash TableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B156E118BD60C800CDC32B /* Build configuration list for PBXNativeTarget "Hash TableTests" */;
+			buildPhases = (
+				A2B156C918BD60C800CDC32B /* Sources */,
+				A2B156CA18BD60C800CDC32B /* Frameworks */,
+				A2B156CB18BD60C800CDC32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B156D318BD60C800CDC32B /* PBXTargetDependency */,
+			);
+			name = "Hash TableTests";
+			productName = "Hash TableTests";
+			productReference = A2B156CD18BD60C800CDC32B /* Hash TableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2B156A418BD60C800CDC32B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Brad;
+				TargetAttributes = {
+					A2B156CC18BD60C800CDC32B = {
+						TestTargetID = A2B156AB18BD60C800CDC32B;
+					};
+				};
+			};
+			buildConfigurationList = A2B156A718BD60C800CDC32B /* Build configuration list for PBXProject "Hash Table" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2B156A318BD60C800CDC32B;
+			productRefGroup = A2B156AD18BD60C800CDC32B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2B156AB18BD60C800CDC32B /* Hash Table */,
+				A2B156CC18BD60C800CDC32B /* Hash TableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2B156AA18BD60C800CDC32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B156C818BD60C800CDC32B /* Images.xcassets in Resources */,
+				A2B156BA18BD60C800CDC32B /* InfoPlist.strings in Resources */,
+				A2B156C318BD60C800CDC32B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B156CB18BD60C800CDC32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B156D918BD60C800CDC32B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2B156A818BD60C800CDC32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B156EF18BDA83300CDC32B /* DynamicHashTable.m in Sources */,
+				A2B156E918BD97B500CDC32B /* HashBucket.m in Sources */,
+				A2B156BC18BD60C800CDC32B /* main.m in Sources */,
+				A2B156C018BD60C800CDC32B /* CFAppDelegate.m in Sources */,
+				A2B156E618BD929000CDC32B /* HashTable.m in Sources */,
+				A2B156C618BD60C800CDC32B /* CFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B156C918BD60C800CDC32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B156DB18BD60C800CDC32B /* Hash_TableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2B156D318BD60C800CDC32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2B156AB18BD60C800CDC32B /* Hash Table */;
+			targetProxy = A2B156D218BD60C800CDC32B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2B156B818BD60C800CDC32B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B156B918BD60C800CDC32B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2B156C118BD60C800CDC32B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B156C218BD60C800CDC32B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2B156D718BD60C800CDC32B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B156D818BD60C800CDC32B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2B156DC18BD60C800CDC32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2B156DD18BD60C800CDC32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2B156DF18BD60C800CDC32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hash Table/Hash Table-Prefix.pch";
+				INFOPLIST_FILE = "Hash Table/Hash Table-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2B156E018BD60C800CDC32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hash Table/Hash Table-Prefix.pch";
+				INFOPLIST_FILE = "Hash Table/Hash Table-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2B156E218BD60C800CDC32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hash Table.app/Hash Table";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hash Table/Hash Table-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hash TableTests/Hash TableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A2B156E318BD60C800CDC32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hash Table.app/Hash Table";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hash Table/Hash Table-Prefix.pch";
+				INFOPLIST_FILE = "Hash TableTests/Hash TableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2B156A718BD60C800CDC32B /* Build configuration list for PBXProject "Hash Table" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B156DC18BD60C800CDC32B /* Debug */,
+				A2B156DD18BD60C800CDC32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B156DE18BD60C800CDC32B /* Build configuration list for PBXNativeTarget "Hash Table" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B156DF18BD60C800CDC32B /* Debug */,
+				A2B156E018BD60C800CDC32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2B156E118BD60C800CDC32B /* Build configuration list for PBXNativeTarget "Hash TableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B156E218BD60C800CDC32B /* Debug */,
+				A2B156E318BD60C800CDC32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2B156A418BD60C800CDC32B /* Project object */;
+}
